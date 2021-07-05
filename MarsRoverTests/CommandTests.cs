@@ -38,5 +38,6 @@ namespace MarsRoverTests
             Command newMode = new Command("MODE_CHANGE", "LOW_POWER");
             Assert.AreEqual(newMode.NewMode, "LOW_POWER");
         }
+        
     }
 }

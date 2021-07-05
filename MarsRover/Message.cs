@@ -10,7 +10,6 @@ namespace MarsRover
         {
             Name = name;
             Commands = commands;
-
         }
     }
 }

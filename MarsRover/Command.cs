@@ -15,7 +15,7 @@ namespace MarsRover
             string CommandType = commandType;
             if (String.IsNullOrEmpty(commandType))
             {
-                throw new ArgumentNullException(CommandType, "Oops");
+                throw new ArgumentNullException(CommandType, "Command type required.");
             }
         }
 
