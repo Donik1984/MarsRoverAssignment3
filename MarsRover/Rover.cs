@@ -24,6 +24,12 @@ namespace MarsRover
                 GeneratorWatts = 0;
                 Position = 0;
             }
+            else if (mode_change != "MODE_CHANGE" || mode_change != "Normal")
+            {
+                Mode = "Enter commands: MODE_CHANGE or Normal";
+                GeneratorWatts = 0;
+                Position = 0;
+            }
         }
 
         public void ReceiveMessage(Message message)

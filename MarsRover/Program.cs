@@ -8,7 +8,7 @@ namespace MarsRover
         {
 
             //Console.WriteLine();
-            Rover myRover = new Rover(20, "MODE_CHANGE");
+            Rover myRover = new Rover(20, "fdsf");
             Console.WriteLine("\n" + myRover.ToString() + "\nRover is captured by Aliens");
 
 
